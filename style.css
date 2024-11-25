@@ -1,0 +1,43 @@
+#fundo{
+    background:#011724  ;
+}
+
+#caixabranca {    
+    background: #FFFF;
+    border: #06FAFA solid 4px;
+    width: 800px;
+    height: 430px;
+    border-radius: 1% ;
+    margin-left: 390px;
+    
+}
+
+#titulo1 {
+  
+color: #FFFF;
+text-align: center;
+
+}
+#titulo2 { 
+    color: #06FAFA ;
+    text-align: center;
+}
+
+#perfil{
+
+    border-radius: 50%;
+    width: 200px; height: 200px;
+    margin-top: 50px;
+    margin-left: 300px;
+
+}
+
+#cortitulo3 { 
+
+    color: #00008B;
+    text-align: center;
+}
+
+.descricao{
+    margin-left: 15px;
+}
