@@ -1,14 +1,20 @@
 #fundo{
     background:#011724  ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #caixabranca {    
     background: #FFFF;
     border: #06FAFA solid 4px;
-    width: 800px;
-    height: 430px;
+    width: 50%;
+    height: 30%;
     border-radius: 1% ;
-    margin-left: 390px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -28,7 +34,7 @@ text-align: center;
     border-radius: 50%;
     width: 200px; height: 200px;
     margin-top: 50px;
-    margin-left: 300px;
+   
 
 }
 
@@ -40,4 +46,14 @@ text-align: center;
 
 .descricao{
     margin-left: 15px;
+    width: 80%;
+}
+
+@media (max-width: 768px) { 
+
+    .caixabranca
+    {
+        margin-left: 0px;
+    }
+    
 }
